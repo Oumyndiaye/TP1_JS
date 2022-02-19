@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;  
+} 
+button{
+    display: flex;
+    height: 3vh;
+    width: 5vw;
+    position: absolute;
+    right: 8vh;
+    top: 3vh;
+}
+body{
+    display: flex;
+} 
+.icone{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    width: 15vw;
+    height: 4vh; 
+    background-color:greenyellow;
+}
+textarea{
+    height: 50vh;
+    width: 15vw;
+}
+body{
+    background-color: aqua;
+}
