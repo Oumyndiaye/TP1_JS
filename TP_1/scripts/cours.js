@@ -10,17 +10,18 @@ btn.addEventListener('click',function(){
     
     iBtnDelete.setAttribute('class','fa-solid fa-trash-can')
     iBtnEdit.setAttribute('class','fa-solid fa-pen-to-square')
+    divConteneur.setAttribute('class','conteneur')
+    divIcone.setAttribute('class','icone')
+    divTextarea.setAttribute('class','area')
+
     grand.appendChild(divConteneur);
     divConteneur.appendChild(divIcone);
-    
     divIcone.appendChild(iBtnDelete);
     divIcone.appendChild(iBtnEdit);
     divConteneur.appendChild(divTextarea);
     divTextarea.appendChild(textArea);
 
-    divConteneur.setAttribute('class','conteneur')
-    divIcone.setAttribute('class','icone')
-    divTextarea.setAttribute('class','area')
+    
 
     iBtnDelete.addEventListener('click',function(){
         grand.removeChild(divConteneur)
