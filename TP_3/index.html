@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TP_3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="conteneur">         
+            <div class="formul">  
+                <div class="resultat">
+                    <input type="text" id="result" name="" placeholder="I823Zs78#Css09@" readonly>
+                </div>
+            <div class="bbb">
+                <div class="long">
+                    <label for="long_pw"> Longeur du Password</label>
+                    <input type="text" name="box" id="long_pw"> 
+                    <span id="nombre_insuf" style="color:red"></span></br>
+                </div>
+                <div class="check">
+                    <label for="maj">Contient des Lettres Majuscules</label>
+                    <input type="checkbox" name="box" id="maj"></br>   
+                    <span id="nombre_insuf" style="color:red"></span></br>
+                </div>
+                <div class="check">
+                    <label for="min">Contient des Lettres Miniscules</label>
+                    <input type="checkbox" name="box" id="min"></br> 
+                    <span id="nombre_insuf" style="color:red"></span></br>
+                </div>
+                <div class="check">
+                    <label for="nbre">Contient des Nombres</label>
+                    <input type="checkbox" name="box" id="nbre"></br>
+                    <span id="nombre_insuf" style="color:red"></span></br>
+                </div>
+                <div class="check">
+                    <label for="symbol">Contient des caracteres speciaux</label>
+                    <input type="checkbox" name="box" id="symbol"></br>  
+                    <span id="nombre_insuf" style="color:red"></span></br>
+                </div>  
+            
+            </div>
+            <div class="pass">
+                <input type="submit" value="Generer Le Mot de Passe" id="buton_envoi">
+            </div>
+                   
+            
+        </div>
+       <script src="script/main.js"></script>
+    </body>
+</html>
